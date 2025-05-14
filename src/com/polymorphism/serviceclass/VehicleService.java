@@ -43,6 +43,8 @@ public class VehicleService {
 		
 		System.out.println("=====================================");	
 		
+		//Try using upcasting with polymorphism, which is more flexible and scalable:
+		
 		ArrayList<Vehicle> vehicles = new ArrayList<>();
 
 		vehicles.add(new Car("Car", "WB 1234"));
